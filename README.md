@@ -1,4 +1,4 @@
-# GUI教學
+# Tkinter/QT
 
 ## QT安裝方式
 
@@ -29,3 +29,9 @@
 #### Step2. 安裝QT creator
 
 > brew cask install qt-creator
+
+## PyQT
+
+### 安裝方式
+
+請使用 PyCharm Settings 或者 命令列 安裝 PyQT5
