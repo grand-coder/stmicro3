@@ -35,3 +35,30 @@
 ### 安裝方式
 
 請使用 PyCharm Settings 或者 命令列 安裝 PyQT5
+
+## Pyuic5
+
+Pyuic可以幫你把.ui檔轉換成.py檔案
+
+### 指令
+
+> pyuic5 xxxx.ui -o xxxx.py
+
+## PyInstaller
+
+### 指令
+
+windows -add-data請把:換成;
+
+#### 普通
+
+> pyinstaller --add-data "command.ui:." commandapp.py
+
+#### 無console
+
+> pyinstaller --noconsole -add-data "command.ui:." commandapp.py
+
+#### 一隻檔案
+
+> pyinstaller --noconsole --onefile -add-data "command.ui:." commandapp.py
+
