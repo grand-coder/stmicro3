@@ -62,3 +62,6 @@ windows -add-data請把:換成;
 
 > pyinstaller --noconsole --onefile -add-data "command.ui:." commandapp.py
 
+#### 使用spec
+
+> pyinstaller xxx.spec
